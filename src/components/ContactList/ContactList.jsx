@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
-import { getFilter } from 'redux/contactsSlice';
+import { getFilter } from 'redux/Contacts/contactsSlice';
 import { Wraper, ContactItem, ContactText, DelButton, Text } from './ContactList.styled';
 import { Loader } from '../Loader/Loader';
-import { useDeleteContactMutation, useFetchContactsQuery } from 'redux/contactsApi';
+import { useDeleteContactMutation, useFetchContactsQuery } from 'redux/Contacts/contactsApi';
 import { FiDelete } from 'react-icons/fi';
 import { IconContext } from "react-icons";
 
@@ -12,7 +12,6 @@ const ContactList = () => {
   const [deleteContact] = useDeleteContactMutation();
 
   const filter = useSelector(getFilter);
-  console.log(filter)
   const getVisibleContacts = () => {
      return data.filter(contact =>
      contact.name.toLowerCase().includes(filter.toLowerCase().trim()))
@@ -32,7 +31,7 @@ const ContactList = () => {
               <DelButton
                 type="button"
                 onClick={() => deleteContact(id)}>
-                <IconContext.Provider value={{ size: "30px", color: "rgba(33, 33, 33, 0.2)"  }}>
+                <IconContext.Provider value={{ size: "20px", color: "#1976d2cf" }}>
                 <FiDelete />
                 </IconContext.Provider>
               </DelButton>

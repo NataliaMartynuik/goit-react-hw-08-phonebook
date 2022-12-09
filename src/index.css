@@ -7,7 +7,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(244, 234, 225);
+  background-image: linear-gradient(rgba(40, 28, 25, 0.815),
+        rgba(255, 249, 231, 0.4)),
+      url('./images/back.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 
 }
 
@@ -15,3 +19,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+ 
+}
+

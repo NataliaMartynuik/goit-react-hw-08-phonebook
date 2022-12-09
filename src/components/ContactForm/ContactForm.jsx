@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { ContactForm, ContactLabel, ContactInput, ContactButton } from './ContactForm.styled';
+import { ContactForm, ContactLabel, ContactInput, ContactButton, Wrapper } from './ContactForm.styled';
 
-import { useAddContactMutation, useFetchContactsQuery } from 'redux/contactsApi';
+import { useAddContactMutation, useFetchContactsQuery } from 'redux/Contacts/contactsApi';
 
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+
+
 
 
 export const Form = () => {
@@ -28,7 +29,7 @@ export const Form = () => {
         toast.info(`${name} is already in contacts.`)
     } else {
       addContacts(contact);
-      toast.success(`${name} is added in contacts.`) 
+      toast.success(`${name} is added to your phonebooks`) 
       }
       reset();
     };
@@ -38,7 +39,8 @@ export const Form = () => {
         setNumber('');
     }
 
-    return (
+  return (
+      <Wrapper>
           <ContactForm onSubmit={handleSubmit}>
           <ContactLabel>
             Name
@@ -67,6 +69,7 @@ export const Form = () => {
   <ContactButton type="submit">Add contact</ContactButton>
   <ToastContainer position="top-center" autoClose={2000} toastify-color-info="#a47186"/>              
       </ContactForm>  
+      </Wrapper>
         )
  }
 

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const FilterLabel = styled.label`
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 16px;
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -11,11 +11,12 @@ export const FilterLabel = styled.label`
 `
 
 export const FilterInput = styled.input`
-    height: 40px;
+    height: 30px;
     outline: none;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid #1976d2;
     border-radius: 4px;
-    padding-left: 22px;
+    padding-left: 15px;
     margin-top: 4px;
-    font-size: 18px;
+    font-size: 16px;
+    background-color: transparent;
 `
