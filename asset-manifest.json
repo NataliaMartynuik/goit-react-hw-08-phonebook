@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.2c26843f.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.db969b0b.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.fb0db854.js",
     "static/js/221.83cb2eec.chunk.js": "/goit-react-hw-08-phonebook/static/js/221.83cb2eec.chunk.js",
-    "static/js/187.4c209a36.chunk.js": "/goit-react-hw-08-phonebook/static/js/187.4c209a36.chunk.js",
+    "static/js/187.4fb35648.chunk.js": "/goit-react-hw-08-phonebook/static/js/187.4fb35648.chunk.js",
     "static/js/489.0b5ed30d.chunk.js": "/goit-react-hw-08-phonebook/static/js/489.0b5ed30d.chunk.js",
     "static/js/457.cff55159.chunk.js": "/goit-react-hw-08-phonebook/static/js/457.cff55159.chunk.js",
     "static/js/601.db5bc336.chunk.js": "/goit-react-hw-08-phonebook/static/js/601.db5bc336.chunk.js",
     "static/media/back.jpg": "/goit-react-hw-08-phonebook/static/media/back.482bdc521657d5597a3c.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.2c26843f.css.map": "/goit-react-hw-08-phonebook/static/css/main.2c26843f.css.map",
-    "main.db969b0b.js.map": "/goit-react-hw-08-phonebook/static/js/main.db969b0b.js.map",
+    "main.fb0db854.js.map": "/goit-react-hw-08-phonebook/static/js/main.fb0db854.js.map",
     "221.83cb2eec.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/221.83cb2eec.chunk.js.map",
-    "187.4c209a36.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/187.4c209a36.chunk.js.map",
+    "187.4fb35648.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/187.4fb35648.chunk.js.map",
     "489.0b5ed30d.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/489.0b5ed30d.chunk.js.map",
     "457.cff55159.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/457.cff55159.chunk.js.map",
     "601.db5bc336.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/601.db5bc336.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c26843f.css",
-    "static/js/main.db969b0b.js"
+    "static/js/main.fb0db854.js"
   ]
 }
